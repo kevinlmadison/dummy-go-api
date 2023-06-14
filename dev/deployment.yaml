@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: dummygoapi
-        image: docker.io/andrewzah/go-test-api
+        image: docker.io/andrewzah/go-test-api:0.0.1@sha256:6d97182be337669e6ce66833ee71c76e575b3b9bb7c68adfa32a4aa50ed770d6
         ports:
         - containerPort: 9090
 

@@ -5,4 +5,4 @@ build:
 
 docker:
   docker build . \
-    -t "andrewzah/go-test-api"
+    -t "andrewzah/go-test-api:0.0.1"
