@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: dummy-go-api
-          image: registry.dev.analyticshq.com/kevtest2/dummy-go-api:v2
+          image: registry.dev.analyticshq.com/kevtest2/dummy-go-api:v3
           ports:
             - containerPort: 9090
       imagePullSecrets:
